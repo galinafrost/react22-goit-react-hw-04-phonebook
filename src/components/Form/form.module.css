@@ -1,0 +1,30 @@
+.section {
+  display: flex;
+  color: rgba(117, 117, 117, 1);
+}
+
+.container {
+  max-width: 1200px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+
+  border: 1px solid rgba(117, 117, 117, 1);
+
+  box-shadow: 1px 1px 3px rgb(0 0 0 / 12%), 1px 1px 1px rgb(0 0 0 / 14%),
+    1px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  list-style-position: inside;
+  padding-left: 0;
+}
